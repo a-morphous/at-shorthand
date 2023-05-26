@@ -1,0 +1,49 @@
+[
+	{
+		"text": "This should be a straight line."
+	},
+	{
+		"classes": [
+			"test"
+		],
+		"primary": "test",
+		"text": "Should have a single class."
+	},
+	{
+		"classes": [
+			"abc",
+			"def"
+		],
+		"primary": "abc",
+		"text": "Multiple classes. Primary should be the first class."
+	},
+	{
+		"classes": [
+			"class"
+		],
+		"id": "id",
+		"primary": "id",
+		"text": "Ids and classes."
+	},
+	{
+		"classes": [
+			"mixing"
+		],
+		"id": "ids",
+		"primary": "ids",
+		"text": "Should have mixing class and id. Primary is always the id if one exists."
+	},
+	{
+		"classes": [],
+		"id": "ids",
+		"primary": "ids",
+		"text": "should use the last value as an id."
+	},
+	{
+		"classes": [
+			"not#an_id"
+		],
+		"primary": "not#an_id",
+		"text": "You need a `.` to separate different fields in @ shorthand."
+	}
+]

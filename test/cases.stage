@@ -1,0 +1,7 @@
+This should be a straight line.
+@test Should have a single class.
+@abc.def Multiple classes. Primary should be the first class.
+@#id.class Ids and classes.
+@mixing.#ids Should have mixing class and id. Primary is always the id if one exists.
+@#multiple.#ids should use the last value as an id.
+@not#an_id You need a `.` to separate different fields in @ shorthand.
